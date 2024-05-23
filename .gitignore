@@ -41,5 +41,6 @@ src/test/
 dependency-reduced-pom.xml
 log/
 
+README-local.md
 src/main/scala/com/aws/analytics/CDC2MSK.scala
 src/main/scala/com/aws/analytics/TestSome.scala

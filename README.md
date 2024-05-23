@@ -14,8 +14,8 @@ create 'hbase_datagen_table', 'cf'
 ```
 ```shell
 # 注意替换为你自己的s3 bucket和hbase zk地址
-checkpoints=s3://pcd-01/flink/checkpoints/
-hbase_zk="172.31.129.56:2181"
+checkpoints=s3://xxxx/flink/checkpoints/
+hbase_zk="xxx.xxx.xxx.xxx:2181"
 sudo flink run-application -t yarn-application \
 -D state.backend=rocksdb \
 -D state.checkpoint-storage=filesystem \
